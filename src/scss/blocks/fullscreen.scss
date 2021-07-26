@@ -1,0 +1,74 @@
+.fullscreen {
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+
+	background-image: url(../img/hero.svg);
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+	&__content {
+		max-width: 700px;
+		color: #ffffff;
+		padding: 0px 10px 40px 10px;
+		z-index: 1;
+	}
+
+	&__title {
+		font-size: 70px;
+		font-weight: 500;
+		margin: 0px 0px 16px 0px;
+
+		@include max-w($laptop+px) {
+			font-size: calc(40px + (60 - 40) * ((100vw - #{$minwidth+px}) / (#{$laptop} - #{$minwidth})));
+		}
+
+		@media (max-height: 509px) {
+			margin: 0px 0px 10px 0px;
+			font-size: 35px;
+		}
+	}
+
+	&__subtitle {
+		font-size: 24px;
+		font-weight: 400;
+		line-height: 28px;
+		margin: 0px 0px 31px 0px;
+
+		@include max-w($laptop+px) {
+			font-size: calc(18px + (22 - 18) * ((100vw - #{$minwidth+px}) / (#{$laptop} - #{$minwidth})));
+		}
+
+		@media (max-height: 509px) {
+			margin: 0px 0px 16px 0px;
+		}
+	}
+
+	&__button button {
+		display: inline-block;
+		padding: 15px 50px;
+		border-radius: 4px;
+		background: linear-gradient(181.79deg, #00F9FF 1.52%, #00D0F1 122.12%);
+		transition: all 0.3s;
+
+		font-size: 18px;
+		font-weight: 500;
+		color: #ffffff;
+
+		&:hover {
+			opacity: 1;
+			transform: scale(1.1);
+			box-shadow: 0px 10px 20px rgba(#000000, 0.3);
+		}
+
+		@media (max-height: 509px) {
+			font-size: 16px;
+			padding: 10px 35px;
+		}
+	}
+}

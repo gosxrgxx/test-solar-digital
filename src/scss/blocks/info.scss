@@ -1,0 +1,116 @@
+.info {
+	transform: translateY(-50%);
+
+	&__content {
+		position: relative;
+		margin: 0 auto;
+		max-width: 1040px;
+		background-color: #ffffff;
+		border-radius: 6px;
+		box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.03);
+		z-index: 1;
+	}
+
+	&__row,
+	&__col {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	&__row:not(:last-child) {
+		border-bottom: 1px solid #f7f7f7;
+	}
+
+	&__col {
+		flex: 1 1 50%;
+		padding: 0px 25px;
+
+		&:not(:last-child) {
+			border-right: 1px solid #f7f7f7;
+		}
+	}
+
+	&__card {
+		display: flex;
+		align-items: center;
+		padding: 70px 0px;
+
+		@include max-w($mobileL+px) {
+			padding: 50px 0px;
+		}
+
+		@media (max-width: $mobile+px), (max-height: 749px) {
+			padding: 40px 0px;
+		}
+	}
+
+	&__icon {
+		position: relative;
+		width: 48px;
+		height: 48px;
+		border-radius: 4px;
+		box-shadow: 0px 10px 20px rgba(#000000, 0.3);
+		flex: 0 0 auto;
+		margin: 0px 20px 0px 0px;
+
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			fill: #ffffff;
+		}
+
+		&--strategy {
+			background: linear-gradient(315deg, #FF7676 0%, #F54EA2 100%);
+
+			svg {
+				width: 19px;
+				height: 25px;
+			}
+		}
+
+		&--rocket {
+			background: linear-gradient(310.68deg, #FCE38A 4.65%, #F38181 90.07%);
+
+			svg {
+				width: 36px;
+				height: 62px;
+			}
+		}
+
+		&--group {
+			background: linear-gradient(315deg, rgba(23, 234, 217, 0.1) 0%, #22D9DB 34.08%, #6078EA 100%);
+
+			svg {
+				width: 24.3px;
+				height: 23.95px;
+			}
+		}
+
+		&--wallet {
+			background: linear-gradient(135deg, #43E695 0%, #3BB2B8 100%);
+
+			svg {
+				width: 36px;
+				height: 30px;
+			}
+		}
+
+		@include max-w($mobile+px) {
+			margin: 0;
+		}
+	}
+
+	&__text {
+		max-width: 260px;
+		font-size: 16px;
+		font-weight: 500;
+		color: #1e2945;
+
+		@include max-w($mobile+px) {
+			display: none;
+		}
+	}
+}

@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+	@@include('_head.html',{
+		"title": "Binotrade"
+	})
+<body>
+	<div style="display:none">
+		@@include('_svgsprite.html')
+	</div>
+
+	<div class="wrapper">
+		@@include('_header.html')
+		<main class="content">
+
+			<section class="fullscreen">
+				<div class="fullscreen__content">
+					<h1 class="fullscreen__title">
+						Простой инструмент для онлайн торговли
+					</h1>
+					<div class="fullscreen__subtitle">
+						Первая прибыль через 1 минуту
+					</div>
+					<div class="fullscreen__button">
+						<button type="button">Начать торговать</button>
+					</div>
+				</div>
+			</section>
+
+			<section class="info">
+				<div class="container">
+					<div class="info__content">
+						<div class="info__row">
+							<div class="info__col">
+								<div class="info__card">
+									<div class="info__icon info__icon--strategy">
+										<svg>
+											<use xlink:href="#strategy"></use>
+										</svg>
+									</div>
+									<div class="info__text">
+										Оттачи выигрышную стратегию на учебном счете
+									</div>
+								</div>
+							</div>
+							<div class="info__col">
+								<div class="info__card">
+									<div class="info__icon info__icon--rocket">
+										<svg>
+											<use xlink:href="#rocket"></use>
+										</svg>
+									</div>
+									<div class="info__text">
+										Торгуй с минимумом вложений и получай до 95% прибыли
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="info__row">
+							<div class="info__col">
+								<div class="info__card">
+									<div class="info__icon info__icon--group">
+										<svg>
+											<use xlink:href="#group"></use>
+										</svg>
+									</div>
+									<div class="info__text">
+										Определяй куда пойдет цена актива: вверх или вниз
+									</div>
+								</div>
+							</div>
+							<div class="info__col">
+								<div class="info__card">
+									<div class="info__icon info__icon--wallet">
+										<svg>
+											<use xlink:href="#wallet"></use>
+										</svg>
+									</div>
+									<div class="info__text">
+										Выводи прибыль без ограничений на карту или онлайн-кошелек
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="tabs">
+				<div class="tabs__decor" aria-hidden="true">
+					<div class="ellipse ellipse--blue">
+						<span>10</span>
+					</div>
+					<div class="ellipse ellipse--orange">
+						<span>$</span>
+					</div>
+					<div class="ellipse ellipse--green">
+						<span>$</span>
+					</div>
+					<div class="ellipse ellipse--red">
+						<span>10</span>
+					</div>
+					<div class="cloud cloud--one">
+						<svg >
+							<use xlink:href="#cloudB"></use>
+						</svg>
+					</div>
+					<div class="cloud cloud--two">
+						<svg >
+							<use xlink:href="#cloudB"></use>
+						</svg>
+					</div>
+					<div class="cloud cloud--three">
+						<svg >
+							<use xlink:href="#cloudS"></use>
+						</svg>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="tabs__content">
+
+						<nav class="tabs__nav">
+							<ul class="tabs__nav-list">
+								<li data-tab="#t-1" class="tabs__nav-item active">
+									<button type="button" class="tabs__nav-button">
+										Минимальный депозит 10$
+									</button>
+								</li>
+								<li data-tab="#t-2" class="tabs__nav-item">
+									<button type="button" class="tabs__nav-button">
+										Персональный менеджер
+									</button>
+								</li>
+								<li data-tab="#t-3" class="tabs__nav-item">
+									<button type="button" class="tabs__nav-button">
+										Бесплтаное обучение
+									</button>
+								</li>
+								<li data-tab="#t-4" class="tabs__nav-item">
+									<button type="button" class="tabs__nav-button">
+										Круглосуточная поддержка
+									</button>
+								</li>
+							</ul>
+						</nav>
+
+						<div class="tabs__info">
+							<div id="t-1" class="tabs__info-body active">
+								<div class="tabs__text">
+									<h2 class="tabs__title title">
+										Минимальный депозит
+									</h2>
+									<div class="tabs__article">
+										Реальный счет позволит вам зарабатывать реальные деньги. Для открытия реального счёта необходимо лишь зарегистрироваться и пополнить торговый счет. Минимальный депозит составляет всего 10$. Это реальный шанс увеличить свой доход!
+									</div>
+								</div>
+								<div class="tabs__image">
+									<div class="tabs__image-wrapper">
+										<img src="img/wallet.svg" alt="Wallet">
+									</div>
+								</div>
+							</div>
+							<div id="t-2" class="tabs__info-body">
+								<div class="tabs__text">
+									<h2 class="tabs__title title">
+										Персональный менеджер
+									</h2>
+									<div class="tabs__article">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ullam vero ex et explicabo vel tenetur nostrum corrupti quis animi! Laudantium, hic totam eaque rem consequatur pariatur beatae libero ea!
+									</div>
+								</div>
+								<div class="tabs__image">
+									<div class="tabs__image-wrapper">
+										<img src="img/wallet.svg" alt="Wallet">
+									</div>
+								</div>
+							</div>
+							<div id="t-3" class="tabs__info-body">
+								<div class="tabs__text">
+									<h2 class="tabs__title title">
+										Бесплтаное обучение
+									</h2>
+									<div class="tabs__article">
+										Lorem ipsum dolor sit amet consectetur adipisicing elit. At error, excepturi repudiandae quisquam sapiente harum saepe fuga qui sed quidem! Deleniti, ad? Enim dolores architecto, ea nobis fugit adipisci inventore, autem quam voluptatibus sequi corrupti esse labore quibusdam quae itaque eius suscipit animi odio vitae fugiat temporibus aperiam non? Blanditiis dolor quisquam minima, hic dolore, at nihil natus, aut quia voluptas illo vel esse perferendis maxime vitae doloremque molestiae! Expedita rem non, voluptatibus et corrupti ducimus, qui atque dignissimos quas reprehenderit, id repudiandae est?
+									</div>
+								</div>
+								<div class="tabs__image">
+									<div class="tabs__image-wrapper">
+										<img src="img/wallet.svg" alt="Wallet">
+									</div>
+								</div>
+							</div>
+							<div id="t-4" class="tabs__info-body">
+								<div class="tabs__text">
+									<h2 class="tabs__title title">
+										Круглосуточная поддержка
+									</h2>
+									<div class="tabs__article">
+										Lorem, ipsum dolor sit amet consectetur adipisicing elit. Possimus est laboriosam pariatur sed ullam ducimus libero, similique necessitatibus exercitationem nostrum velit quos beatae consectetur? Placeat temporibus quo accusantium, quas tempora quis expedita cupiditate, a nihil ab et iusto sapiente quos.
+									</div>
+								</div>
+								<div class="tabs__image">
+									<div class="tabs__image-wrapper">
+										<img src="img/wallet.svg" alt="Wallet">
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="company">
+				<div class="container">
+					<div class="company__content">
+
+						<h2 class="company__title title">
+							Более 50 проверенных активов
+						</h2>
+
+						<ul class="company__list">
+							<li class="company__item">
+								<div class="company__img badoo"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img tesla"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img gillette"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img cola"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img netflix"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img microsoft"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img walt"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img facebook"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img google"></div>
+							</li>
+							<li class="company__item">
+								<div class="company__img toyota"></div>
+							</li>
+						</ul>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="mobile">
+				<div class="container">
+					<div class="mobile__content">
+
+						<div class="mobile__info">
+							<h2 class="mobile__title title">
+								Мобильные приложения
+							</h2>
+							<div class="mobile__text">
+								Торговля на нескольких графиках, технический анализ, история котировок и многое другое. Все, что вам нужно на платформе, доступно на любом устройстве по вашему выбору.
+							</div>
+						</div>
+
+						<div class="mobile__phones">
+							<div class="mobile__phones-wrapper">
+								<div class="mobile__iphone">
+									<img src="img/iphone.png" alt="iPhone">
+								</div>
+								<div class="mobile__android">
+									<img src="img/android.png" alt="Android">
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+			<section class="description">
+				<div class="container">
+					<div class="description__content">
+
+						<h2 class="description__title title">
+							Binotrade.com — бинарный опцион с личным помощником
+						</h2>
+
+						<div class="description__text">
+							<p>
+								Binotrade - это торговая платформа, удобный инструмент, который предлагает не только возможность заработать с помощью торговли бинарными опционами, но и предоставляет профессиональный клиентский сервис. Сразу после регистрации на Binotrade.com, каждый клиент получает личного консультанта.
+							</p>
+							<p>
+								Вам нужен совет по торговле активами или вы не можете подобрать подходящую торговую стратегию? Обратитесь к вашему личному консультанту, который поможет вам в решении вопроса. Вам не нужен статус VIP-клиента, чтобы пользоваться квалифицированным клиентским сервисом!
+							</p>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		</main>
+		@@include('_footer.html')
+	</div>
+
+	@@include('_js.html')
+</body>
+</html>

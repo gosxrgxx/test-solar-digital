@@ -1,0 +1,57 @@
+<svg width="507" height="501" viewBox="0 0 507 501" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M250.774 13.5102L220.435 89.3572H387.302V13.5102H250.774Z" fill="#39B295"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M114.247 89.3572H250.774V13.5102H114.247V89.3572Z" fill="#59BBA8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.474121 104.527V407.915H106.662L61.1533 43.8493C27.7799 43.8493 0.474121 71.1546 0.474121 104.527Z" fill="url(#paint0_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M61.1533 43.8493V407.915L250.774 377.576V43.8493H61.1533Z" fill="#B72D33"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M14.9917 392.687V377.518H432.159V438.196H60.5018C35.408 438.196 14.9917 417.78 14.9917 392.687Z" fill="url(#paint1_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M0.489125 407.915H0.474121C0.474121 407.688 0.475372 407.461 0.477869 407.234C0.475372 407.007 0.474121 406.78 0.474121 406.552L0.489466 406.537C1.22217 373.663 28.1015 347.239 61.1533 347.239H477.016V371.576C477.016 374.89 474.33 377.576 471.016 377.576H447.981V461.231C447.981 464.544 445.294 467.231 441.981 467.231H61.1533C28.0964 467.231 1.21378 440.798 0.489125 407.915ZM30.8212 407.234C31.1835 423.676 44.6242 436.892 61.1533 436.892H417.641V377.576H61.1533C44.6242 377.576 31.1835 390.793 30.8212 407.234Z" fill="url(#paint2_linear)"/>
+<g clip-path="url(#clip0)">
+<rect x="113.121" y="377.518" width="273.944" height="122.841" fill="url(#paint3_linear)"/>
+<mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="113" y="377" width="275" height="124">
+<rect x="113.121" y="377.518" width="273.944" height="122.841" fill="white"/>
+</mask>
+<g mask="url(#mask0)">
+</g>
+</g>
+<rect x="113.121" width="273.944" height="196.255" fill="url(#paint4_linear)"/>
+<path d="M59.9678 43.6122H471.016C474.33 43.6122 477.016 46.2984 477.016 49.6122V347.534H59.9678V43.6122Z" fill="url(#paint5_linear)"/>
+<path d="M317.557 199.662C317.557 166.167 344.71 139.014 378.205 139.014H501C504.314 139.014 507 141.7 507 145.014V254.31C507 257.624 504.314 260.31 501 260.31H378.205C344.71 260.31 317.557 233.157 317.557 199.662Z" fill="url(#paint6_linear)"/>
+<circle cx="376.5" cy="200.5" r="27.5" fill="url(#paint7_linear)"/>
+<defs>
+<linearGradient id="paint0_linear" x1="-12.1026" y1="145.693" x2="144.826" y2="276.749" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1ACBFD"/>
+<stop offset="1" stop-color="#345AFF"/>
+</linearGradient>
+<linearGradient id="paint1_linear" x1="-421.241" y1="257.169" x2="-420.275" y2="437.154" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1ACBFD"/>
+<stop offset="1" stop-color="#345AFF"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="-321.068" y1="169.721" x2="-321.797" y2="457.456" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1ACBFD"/>
+<stop offset="1" stop-color="#345AFF"/>
+</linearGradient>
+<linearGradient id="paint3_linear" x1="480.437" y1="428.114" x2="321.797" y2="219.8" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1CFFBE"/>
+<stop offset="1" stop-color="#35E9F2"/>
+</linearGradient>
+<linearGradient id="paint4_linear" x1="480.437" y1="80.8337" x2="222.503" y2="-131.168" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1CFFBE"/>
+<stop offset="1" stop-color="#35E9F2"/>
+</linearGradient>
+<linearGradient id="paint5_linear" x1="-132.76" y1="126.388" x2="4.47472" y2="445.915" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1ACBFD"/>
+<stop offset="1" stop-color="#345AFF"/>
+</linearGradient>
+<linearGradient id="paint6_linear" x1="261.855" y1="188.419" x2="342.276" y2="355.334" gradientUnits="userSpaceOnUse">
+<stop stop-color="#1ACBFD"/>
+<stop offset="1" stop-color="#345AFF"/>
+</linearGradient>
+<linearGradient id="paint7_linear" x1="420.832" y1="202.879" x2="370.59" y2="159.699" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FCE38A"/>
+<stop offset="1" stop-color="#F38181"/>
+</linearGradient>
+<clipPath id="clip0">
+<rect width="274" height="123" fill="white" transform="translate(113.121 377.518)"/>
+</clipPath>
+</defs>
+</svg>

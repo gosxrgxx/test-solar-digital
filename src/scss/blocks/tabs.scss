@@ -1,0 +1,169 @@
+$tabs-height: 50px;
+
+.tabs {
+	position: relative;
+	width: 100%;
+	margin: 0px 0px 150px 0px;
+
+	&__decor {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		z-index: -1;
+	}
+
+	&__content {
+		max-width: 1040px;
+		margin: 0 auto;
+	}
+
+	// Навигация
+
+	&__nav {
+		display: flex;
+		align-items: center;
+		min-height: $tabs-height;
+		border-radius: 4px;
+		background-color: #ffffff;
+		box-shadow: 0px 40px 40px rgba(0, 0, 0, 0.03);
+		margin: 0px 0px 100px 0px;
+
+		@include max-w($mobileL+px) {
+			margin: 0px 0px 60px 0px;
+		}
+	}
+
+	&__nav-list {
+		width: 100%;
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+
+		@include max-w($mobile+px) {
+			justify-content: flex-start;
+			overflow-x: auto;
+		}
+	}
+
+	&__nav-item {
+		display: flex;
+		padding: 0px 10px;
+		border-bottom: 2px solid transparent;
+		transition: 0.3s;
+
+		&:hover,
+		&.active {
+			border-bottom: 2px solid #2e73fe;
+
+			.tabs__nav-button {
+				color: #2e73fe;
+			}
+		}
+
+		@include max-w($mobile+px) {
+			white-space: nowrap;
+		}
+	}
+
+	&__nav-button {
+		font-size: 15px;
+		font-weight: 500;
+		color: #000000;
+		min-height: $tabs-height;
+		background-color: #ffffff;
+		transition: 0.3s;
+
+		@include max-w($mobile+px) {
+			font-size: 13px;
+		}
+	}
+
+	// Контент
+
+	&__info-body {
+		display: none;
+		align-items: center;
+
+		&.active {
+			display: flex;
+		}
+
+		@include max-w(699px) {
+			flex-direction: column;
+		}
+	}
+
+	&__text,
+	&__image {
+		flex: 1 1 50%;
+
+		@include max-w(699px) {
+			flex: 1 1 100%;
+		}
+	}
+
+	&__text {
+		@include max-w(699px) {
+			order: 2;
+			text-align: center;
+		}
+	}
+
+	&__title {
+		margin: 0px 0px 10px 0px;
+	}
+
+	&__article {
+		max-width: 430px;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 29px;
+		color: #1e2945;
+
+		@include max-w($mobileL+px) {
+			max-width: 100%;
+		}
+
+		@include max-w($mobile+px) {
+			font-size: 16px;
+		}
+	}
+
+	&__image {
+		padding: 0px 0px 0px 88px;
+
+		@include max-w(699px) {
+			order: 1;
+			padding-right: calc(100px + (200 - 100) * ((100vw - #{$minwidth+px}) / (699 - #{$minwidth})));
+			padding-left: calc(100px + (200 - 100) * ((100vw - #{$minwidth+px}) / (699 - #{$minwidth})));
+			margin: 0px 0px 40px 0px;
+		}
+	}
+
+	&__image-wrapper {
+		position: relative;
+		width: 100%;
+		padding-bottom: 100%;
+
+		img {
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+			left: 0;
+			object-fit: scale-down;
+		}
+
+		@include max-w(699px) {
+			position: static;
+			padding-bottom: 0;
+
+			img {
+				position: static;
+				height: auto;
+			}
+		}
+	}
+}

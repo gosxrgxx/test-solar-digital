@@ -1,0 +1,165 @@
+.company {
+	width: 100%;
+	margin: 0px 0px 280px 0px;
+
+	@include max-w($mobileL+px) {
+		margin: 0px 0px 100px 0px;
+	}
+
+	&__content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+
+		min-height: 560px;
+		background-color: #ffffff;
+		border-radius: 4px;
+	}
+
+	&__title {
+		text-align: center;
+		margin: 0px 0px 60px 0px;
+		padding: 0px 14px;
+	}
+
+	&__list {
+		display: flex;
+		flex-wrap: wrap;
+		max-width: 920px;
+	}
+
+	&__item {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		flex: 1 1 20%;
+		min-height: 50px;
+		margin: 0px 0px 10px 0px;
+
+		@include max-w(899px) {
+			flex: 1 1 25%;
+		}
+
+		@include max-w($mobileL+px) {
+			flex: 1 1 33.3%;
+		}
+
+		@include max-w(629px) {
+			flex: 1 1 50%;
+		}
+	}
+
+	&__img {
+		background-image: url(../img/company.png);
+		background-repeat: repeat;
+		transition: transform 0.3s;
+
+		&:hover {
+			transform: translateY(-5px);
+		}
+
+		&.badoo {
+			width: 148px;
+			height: 30px;
+			background-position: -50px -180px;
+
+			&:hover {
+				background-position: -50px -50px;
+			}
+		}
+
+		&.tesla {
+			width: 147px;
+			height: 19px;
+			background-position: -50px -2039px;
+
+			&:hover {
+				background-position: -50px -1920px;
+			}
+		}
+
+		&.gillette {
+			width: 103px;
+			height: 34px;
+			background-position: -50px -974px;
+
+			&:hover {
+				background-position: -50px -840px;
+			}
+		}
+
+		&.cola {
+			width: 107px;
+			height: 33px;
+			background-position: -50px -443px;
+
+			&:hover {
+				background-position: -50px -310px;
+			}
+		}
+
+		&.netflix {
+			width: 117px;
+			height: 28px;
+			background-position: -50px -1792px;
+
+			&:hover {
+				background-position: -50px -1664px;
+			}
+		}
+
+		&.microsoft {
+			width: 166px;
+			height: 41px;
+			background-position: -50px -1523px;
+
+			&:hover {
+				background-position: -50px -1382px;
+			}
+		}
+
+		&.walt {
+			width: 125px;
+			height: 53px;
+			background-position: -50px -2553px;
+
+			&:hover {
+				background-position: -50px -2400px;
+			}
+		}
+
+		&.facebook {
+			width: 146px;
+			height: 35px;
+			background-position: -50px -701px;
+
+			&:hover {
+				width: 138px;
+				height: 29px;
+				background-position: -50px -576px;
+			}
+		}
+
+		&.google {
+			width: 115px;
+			height: 37px;
+			background-position: -50px -1245px;
+
+			&:hover {
+				background-position: -50px -1108px;
+			}
+		}
+
+		&.toyota {
+			width: 118px;
+			height: 21px;
+			background-position: -50px -2279px;
+
+			&:hover {
+				background-position: -50px -2158px;
+			}
+		}
+	}
+}

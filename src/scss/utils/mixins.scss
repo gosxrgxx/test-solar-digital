@@ -1,0 +1,15 @@
+// @media (max-width: px)
+
+@mixin max-w($breakpoint) {
+	@media (max-width: $breakpoint) {
+		@content;
+	}
+}
+
+// @media (min-width: px)
+
+@mixin min-w($breakpoint) {
+	@media (min-width: $breakpoint) {
+		@content;
+	}
+}

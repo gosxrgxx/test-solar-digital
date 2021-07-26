@@ -1,0 +1,35 @@
+{
+  "name": "test-solar-digital",
+  "version": "0.1.0",
+  "description": "Тестовое задание для Solar Digital",
+  "author": "gosxrgxx.com",
+  "license": "MIT",
+  "scripts": {
+    "editorconfig": "editorconfig-checker --exclude '.git|node_modules|src/js/include/libs|.DS_Store'"
+  },
+  "type": "module",
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "del": "^5.1.0",
+    "editorconfig-checker": "^4.0.2",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-beautify-code": "^2.0.4",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-file-include": "^2.2.2",
+    "gulp-group-css-media-queries": "^1.2.2",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-rsync": "^0.0.9",
+    "gulp-sass": "^4.1.0",
+    "gulp-svg-sprite": "^1.5.0",
+    "gulp-svgmin": "^3.0.0",
+    "gulp-ttf2woff": "^1.1.1",
+    "gulp-ttf2woff2": "^4.0.1",
+    "gulp-uglify-es": "^2.0.0",
+    "gulp-webp": "^4.0.1",
+    "gulp-webp-html": "^1.0.2",
+    "gulp-webpcss": "^1.1.1"
+  }
+}
